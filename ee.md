@@ -52,11 +52,11 @@ for (int i=0; i<3; i++) {
 enum 자료형의 줄바꿈은 선택사항
 * 예시1
 ```java 
-public enum { 10, 20, 30 }
+public enum nums { 10, 20, 30 }
 ```
 * 예시2
 ```java 
-public enum {
+public enum nums {
 	10,
 	20, 
 	30
@@ -81,21 +81,21 @@ int b;
 배열은 형식은 자유이며 다음과 같은 예시 모두 가능하다.
 * 예시1
 ```java
-public enum nums { 1, 2, 3, 4 };
+int[] nums = new int[] { 1, 2, 3, 4 };
 ```
 * 예시2
 ```java
-public enum nums {
+int[] nums = new int[] {
 	1, 2, 3, 4
 };
 ```
 * 예시3
 ```java
-public enum nums {
+int[] nums = new int[] {
 	0,
 	1,
 	2,
-	3,
+	3
 };
 ```
 

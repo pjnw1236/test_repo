@@ -1,10 +1,59 @@
-.idea/
-yes27/yes27/.gradle/
+#.idea/
+#yes27/yes27/.gradle/
+#yes27/yes27/build/
+#yes27/yes27/gradle/
+#yes27/yes27/src/.gitignore
+#yes27/yes27/src/build.gradle
+#yes27/yes27/src/gradlew
+#yes27/yes27/src/gradle.bat
+#yes27/yes27/src/HELP.md
+#yes27/yes27/src/settings.gradle
+
+## .gitignore
+# Default ignored files
+.idea/shelf/
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests/
+# Datasource local storage ignored files
+.idea/dataSources/
+.idea/dataSources.local.xml
+
+## yes27
+yes27/yes27/HELP.md
+yes27/yes27/.gradle
 yes27/yes27/build/
-yes27/yes27/gradle/
-yes27/yes27/src/.gitignore
-yes27/yes27/src/build.gradle
-yes27/yes27/src/gradlew
-yes27/yes27/src/gradle.bat
-yes27/yes27/src/HELP.md
-yes27/yes27/src/settings.gradle
+!yes27/yes27/gradle/wrapper/gradle-wrapper.jar
+!yes27/yes27/**/src/main/**/build/
+!yes27/yes27/**/src/test/**/build/
+
+### STS ###
+yes27/yes27/.apt_generated
+yes27/yes27/.classpath
+yes27/yes27/.factorypath
+yes27/yes27/.project
+yes27/yes27/.settings
+yes27/yes27/.springBeans
+yes27/yes27/.sts4-cache
+yes27/yes27/bin/
+!yes27/yes27/**/src/main/**/bin/
+!yes27/yes27/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+yes27/yes27/.idea
+yes27/yes27/*.iws
+yes27/yes27/*.iml
+yes27/yes27/*.ipr
+yes27/yes27/out/
+!yes27/yes27/**/src/main/**/out/
+!yes27/yes27/**/src/test/**/out/
+
+### NetBeans ###
+yes27/yes27/nbproject/private/
+yes27/yes27/nbbuild/
+yes27/yes27/dist/
+yes27/yes27/nbdist/
+yes27/yes27/.nb-gradle/
+
+### VS Code ###
+yes27/yes27/.vscode/
